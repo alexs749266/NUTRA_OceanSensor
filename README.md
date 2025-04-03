@@ -1,33 +1,47 @@
-# NUTRA Ocean Passive Sensor Network
+# NUTRA OceanSensor
 
-This project outlines a passive underwater sensor system that detects specific environmental changes (e.g., presence of fuel, chemicals, or thermal shifts) and deploys a buoy with a transmitter to alert monitoring systems.
+Passive, autonomous underwater sentinel for early threat detection.
 
-## System Components
+## 🌊 Overview
+NUTRA OceanSensor is a modular, passive underwater detection system that identifies environmental anomalies (fuel, chemical, seismic) and autonomously launches a buoy with a transmitter. It is scalable, biodegradable, stealthy, and requires no infrastructure.
 
-- **Passive seabed sensor** (e.g., membrane or sponge) that detects pollutants or disturbances
-- **Low-tech buoy launcher** activated upon trigger
-- **Surface buoy** with basic signal transmitter (e.g., GPS ping or simple radio)
+## 📌 Key Features
+- Passive & undetectable until triggered
+- AI-based trigger logic
+- Deployable from drones, boats, or manually
+- Uses biodegradable or inert components
+- ~$35–50 per unit; scalable to thousands
 
-## Key Features
+## ⚙️ System Components
+- Seabed sensor (e.g., sponge or membrane)
+- Trigger logic with AI microcontroller
+- Autonomous buoy launcher
+- GPS or radio beacon transmitter
 
-- **Infrastructure-free deployment** — can be dropped from drones, boats, or even manually
-- **Scalable** — thousands of units can cover critical oceanic regions
-- **Untraceable** — passive design makes it stealthy and resilient
-- **Autonomous operation** — no ongoing monitoring required
-- **Environmental compatibility** — uses biodegradable or inert materials
-- **Dual-use** — can detect both tactical threats and early signs of ecological disasters
+## 🔬 Use Cases
+- Oil spill detection
+- Underwater sabotage alerts
+- Marine reserve monitoring
+- Early earthquake detection
 
-## Autonomous AI Trigger Module
+## 🚀 TRL Status
+- Currently at TRL 3–4
+- Prototype ready in 10 days
+- Field tests planned in Month 1–2
+- TRL 6 targeted by Month 4
 
-To enhance reliability and minimize false positives, the system can include an **embedded low-power AI module**. This microcontroller analyzes real-time sensor data (chemical, thermal, seismic) and autonomously determines whether to trigger the buoy release based on predefined thresholds (e.g., seismic shock > 4.0 magnitude, chemical concentration above toxic limits).
+## 📄 Documentation
+- [Whitepaper v1 (DOCX)](docs/Whitepaper_NUTRA_v1.docx)
 
-This approach enables:
-- **Energy-efficient autonomous operation**
-- **Customizable reaction profiles**
-- **Local event classification before transmission**
+## 🎥 Demo Video (Coming Soon)
+*A short demonstration of the NUTRA OceanSensor prototype will be added here.*
 
-## GitHub Repository
+## 🤝 Collaboration
+We are open to research collaboration, testing partnerships, and advisory connections.  
+If you're interested, contact **Alexander Shakhov** directly at:  
+📧 finealexs@gmail.com
 
-All source documents, diagrams, and whitepapers are available here:
-🔗 https://github.com/alexs749266/NUTRA_OceanSensor
-
+## 🧠 Author
+**Alexander Shakhov** — Founder of the NUTRA Concept  
+GitHub: https://github.com/alexs749266/NUTRA_OceanSensor  
+Open for collaboration and demonstration
